@@ -30,15 +30,35 @@
 // countEach("xoxoxoxoxoxoxoxxx")
 
 // exo3
-let palindrome = ""
-const isPalindrome = (string) => {
-    palindrome = string.split("").reverse().join("")
-    console.log(palindrome);
-    if (string === palindrome) {
-        console.log(true);
-    } else {
-        console.log(false);
-    }
+// let palindrome = ""
+// const isPalindrome = (string) => {
+//     palindrome = string.split("").reverse().join("")
+//     console.log(palindrome);
+//     if (string === palindrome) {
+//         console.log("Palindrome !" );
+//     } else {
+//         console.log("Nope");
+//     }
+// }
+// isPalindrome("racecar")
 
+// exo4
+let firstLetter = ""
+let lastLetter = ""
+let capitalized = ""
+const swap = (string) => {
+    for (let i = 0; i <= string.length; i++) {
+        firstLetter = firstLetter + string.charAt([i])
+
+        if (firstLetter[0]=== firstLetter.toUpperCase()) {
+            firstLetter[0].toLowerCase([0])
+            console.log("muy bien");
+        }
+        
+        console.log(firstLetter);
+        // if (firstLetter[i] === ) {
+           
+        // } 
+    }
 }
-isPalindrome("Palindrome !")
+swap("Hello World")
